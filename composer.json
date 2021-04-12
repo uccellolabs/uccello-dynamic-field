@@ -1,0 +1,35 @@
+{
+    "name": "uccello/dynamic-field",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan SARDO",
+            "email": "jonathan@uccellolabs.com"
+        }
+    ],
+    "require": {
+        "livewire/livewire": "^2.3",
+        "uccello/uccello": "^2.0|^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uccello\\DynamicField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Uccello\\DynamicField\\Providers\\AppServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
